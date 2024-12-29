@@ -31,7 +31,7 @@ Before setting up the project, ensure you have the following software installed 
 -Clone the project repository to your local machine.
 
 - git clone -b master https://github.com/ArathyArjunan/Holiday_backend.git
-create virtual enviornment 
+- create virtual enviornment 
 - python -m venv venv
 - pip install -r requirements.txt
 - API Request formt:http://127.0.0.1:8000/api/holidays/fetch/?country=AF&year=2024
