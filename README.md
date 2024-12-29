@@ -30,17 +30,18 @@ Before setting up the project, ensure you have the following software installed 
 
 -Clone the project repository to your local machine.
 
--git clone -b master https://github.com/ArathyArjunan/Holiday_backend.git
+- git clone -b master https://github.com/ArathyArjunan/Holiday_backend.git
 create virtual enviornment 
--python -m venv venv
--pip install -r requirements.txt
--API Request formt:http://127.0.0.1:8000/api/holidays/fetch/?country=AF&year=2024
+- python -m venv venv
+- pip install -r requirements.txt
+- API Request formt:http://127.0.0.1:8000/api/holidays/fetch/?country=AF&year=2024
 
 
 ### start server
 
--python manage.py makemigrations
--python manage.py migrate
--python manage.py runserver
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py runserver
+- add .env and setup secretAPI key and URL
 
 
